@@ -1,3 +1,6 @@
+#include "watalab.h"
+#define BUFSIZE 1024
+
 int watalab_do_talk(int sock)
 {
   fd_set fds;
